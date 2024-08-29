@@ -144,6 +144,6 @@ CELERY_BEAT_SCHEDULE = {
         'schedule': timedelta(days=1),
     }
 }
-TELEGRAM_TOKEN = "7496102538:AAFH5KQeSQMFWIoxjnkLz2cwa3FCbGaCOT8"
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 
 TELEGRAM_URL = os.getenv('TELEGRAM_URL')

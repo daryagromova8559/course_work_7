@@ -2,7 +2,6 @@ from rest_framework import serializers
 
 
 class HabitsValidation:
-    """Валидатор на ссылку к видео"""
 
     def __init__(self, field):
         self.field = field
